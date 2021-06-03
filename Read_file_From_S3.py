@@ -4,8 +4,8 @@ findspark.init()
  
 spark = SparkSession.builder \
         .appName("schema_test") \
-        .config('fs.s3a.access.key',"AKIAUYWYBTX76YGDLX45")\
-        .config('fs.s3a.secret.key', "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")\
+        .config('fs.s3a.access.key',"access_key")\
+        .config('fs.s3a.secret.key', "secret_key")\
         .getOrCreate()
  
 bucket = "buck-mumbai-hr"
